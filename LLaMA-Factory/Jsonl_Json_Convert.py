@@ -21,8 +21,8 @@ def jsonl_to_json(jsonl_file, json_file):
         JSON.dump(dict_list, f, indent=4, ensure_ascii=False)
 
 
-jsonl_file = 'COIG-CQIA-XHS/data/COIG-CQIA_xhs.jsonl'
-json_file = 'COIG-CQIA-XHS/data/COIG-CQIA_xhs.json'
+jsonl_file = 'data/COIG-CQIA_xhs.jsonl'
+json_file = 'data/COIG-CQIA_xhs.json'
 
 if __name__ == '__main__':
     jsonl_to_json(jsonl_file, json_file)
